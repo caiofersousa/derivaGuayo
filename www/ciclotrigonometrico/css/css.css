@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+.erro{
+	font-size:16px;
+	font-weight:bold;
+	color:#f00;
+	font-family:Arial, Verdana, sans-serif;
+	
+}
+
+label,legend{
+	font-size:16px;
+	font-weight:bold;
+	font-family:Arial, Verdana, sans-serif;	
+	
+}
+/*#principal{
+	width:900px;
+	height:400px;
+	margin-left:auto;
+	margin-right:auto;
+}*/
+#entrada-valor{
+	/*width:400px;*/
+	/*float:left;*/
+}
+.fieldset{
+	margin:40px 0 0 0;	
+}
+#resultados{
+	/*width:450px;*/
+	/*float:right;*/
+		
+}
+.txtSeno,.txtCosseno,.txtAngulo{
+	margin-top:10px;
+	border-radius:5px/10px;
+	text-align:center;	
+}
+.lblSeno{
+	margin-left:25px;	
+}
+.lblSecante{
+	margin-left:21px;
+}
+.lblTangente{
+	margin-left:15px;
+}
+.info,.informacoes-software,.lista{
+	color:#D32A2A;
+	font-family:Arial, Verdana, sans-serif;
+}
+
+label {
+	width: 800px;
+}

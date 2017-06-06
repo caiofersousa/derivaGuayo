@@ -55,10 +55,15 @@ $(document).ready(function() {
 		{
 			$(".erro").html("")
 			$("#txtAngulo").css("border","2px solid #000");
-			seno = Math.sin(angulo * 2.0 * Math.PI / 360);
+			seno = Math.sin(angulo * 2.0 * Math.PI / 360).toFixed(8);
 			$("#txtSeno").val(seno);
 			
-			cosseno = Math.cos(angulo * 2.0 * Math.PI / 360);
+			/*if(angulo==90 || angulo==180 ){
+				cosseno=0;
+			}else{*/
+				cosseno =  Math.cos(angulo * 2.0 * Math.PI / 360).toFixed(8);
+			//}
+			
 			$("#txtCosseno").val(cosseno);
 			
 			tagente = seno/cosseno;
